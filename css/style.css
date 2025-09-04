@@ -337,7 +337,7 @@ a:focus {
     .carousel,
     .carousel .carousel-item,
     .carousel .carousel-text {
-        height: calc(100vh - 70px);
+        height: 100vh;
     }
     
     .carousel .carousel-text h1 {
@@ -1785,3 +1785,4 @@ a:focus {
 .footer .copyright p a:hover {
     color: #660d84;
 }
+
