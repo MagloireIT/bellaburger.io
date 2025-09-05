@@ -340,8 +340,8 @@ a:focus {
         height: calc(100vh - 70px);
     }
 
-    .navbar {
-    position: absolute;
+    .navbar.nav-sticky {
+    position: fixed;
     top: 0;
     width: 100%;
     box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
@@ -475,6 +475,15 @@ a:focus {
         font-size: 35px;
         font-weight: 600;
     }
+
+    .aboutContainer {
+    padding: 25px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: #360b3a;
+    color: #dddddd;
+
+}
 }
 
 @media (max-width: 575.98px) {
