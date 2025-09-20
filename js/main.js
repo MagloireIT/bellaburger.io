@@ -14,8 +14,7 @@
         return false;
     });
     
-    
-    // Sticky Navbar
+        // Sticky Navbar
     $(window).scroll(function () {
         if ($(this).scrollTop() > 0) {
             $('.navbar').addClass('nav-sticky');
@@ -129,4 +128,13 @@
     });
     
 })(jQuery);
+
+// Figer la vidéo du carousel sur mobile
+$(document).ready(function () {
+    if ($(window).width() < 768) {
+        $('.carousel .carousel-img video').each(function () {
+            this.pause();
+        });
+    }
+});
 
